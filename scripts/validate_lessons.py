@@ -28,8 +28,6 @@ REQUIRED_FIELDS = {
 
 FRONTMATTER_START = re.compile(r"^---\s*$")
 FIELD_RE = re.compile(r"^(?P<key>[a-zA-Z0-9_]+):\s*(?P<value>.*)$")
-LIST_ITEM_RE = re.compile(r"^\s*-\s+.*$")
-
 
 SKIP_DIR_NAMES = {"solutions", "challenges"}
 
@@ -38,12 +36,16 @@ def find_markdown_files(root: str) -> List[str]:
     files = []
     for base, _, names in os.walk(os.path.join(root, "library")):
         for n in names:
-            if n.endswith(".md"):
-                full = os.path.join(base, n)
-                parts = full.replace("\\", "/").split("/")
-                if any(skip in parts for skip in SKIP_DIR_NAMES):
-                    continue
-                files.append(full)
+            if not n.endswith(".md"):
+                continue
+            if not n.startswith("lesson-"):
+                # Only validate canonical lesson files
+                continue
+            full = os.path.join(base, n)
+            parts = full.replace("\\", "/").split("/")
+            if any(skip in parts for skip in SKIP_DIR_NAMES):
+                continue
+            files.append(full)
     return sorted(files)
 
 
@@ -69,9 +71,7 @@ def parse_frontmatter(path: str) -> Dict[str, str] | None:
             value = m.group("value").strip()
             fields[key] = value
         else:
-            # allow list-style continuation for arrays (e.g., sources/tags)
             if ":" in line:
-                # malformed key/value; still record to help debugging
                 parts = line.split(":", 1)
                 fields[parts[0].strip()] = parts[1].strip()
         i += 1
@@ -89,7 +89,6 @@ def validate_file(path: str) -> List[str]:
     if missing:
         errors.append(f"Missing required fields: {', '.join(sorted(missing))}")
 
-    # Basic checks
     if "id" in fm and not re.match(r"^[A-Z]{3}-[A-Z]{3}-[A-Z]{3}-\d{3}$", fm["id"]):
         errors.append("id must match pattern AAA-BBB-CCC-000 (e.g., CYB-FND-BEG-001)")
 
@@ -103,7 +102,7 @@ def main() -> int:
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     md_files = find_markdown_files(repo_root)
     if not md_files:
-        print("No markdown files found under library/", file=sys.stderr)
+        print("No lesson files found under library/", file=sys.stderr)
         return 1
 
     failed = 0
