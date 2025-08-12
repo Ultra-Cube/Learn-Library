@@ -89,8 +89,8 @@ def validate_file(path: str) -> List[str]:
     if missing:
         errors.append(f"Missing required fields: {', '.join(sorted(missing))}")
 
-    if "id" in fm and not re.match(r"^[A-Z]{3}-[A-Z]{3}-[A-Z]{3}-\d{3}$", fm["id"]):
-        errors.append("id must match pattern AAA-BBB-CCC-000 (e.g., CYB-FND-BEG-001)")
+    if "id" in fm and not re.match(r"^(CYB|DEV|CLD|DS|PM|DM|ITI)-[A-Z]{3}-[A-Z]{3}-\d{3}$", fm["id"]):
+        errors.append("id must match pattern AAA-BBB-CCC-000 (e.g., CYB-FND-BEG-001, DS-FND-BEG-001)")
 
     if "duration" in fm and not re.match(r"^(\d+m|\dh)$", fm["duration"]):
         errors.append("duration must be like 30m or 1h")
