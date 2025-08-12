@@ -126,6 +126,6 @@ Browse by domain, track, level, and module. Each lesson links directly; challeng
       - [Lesson 02 — Feedback Loops and Rule Lifecycle](library/cybersecurity/blue-team/intermediate/module-04-alert-tuning-fp-reduction/lessons/lesson-02-feedback-loops-and-lifecycle.md)
       - [Challenges](library/cybersecurity/blue-team/intermediate/module-04-alert-tuning-fp-reduction/challenges/README.md)
     - Module 05 — Incident Response Playbooks
-      - [Lesson 01 — Playbook Fundamentals](library/cybersecurity/blue-team/intermediate/module-05-incident-response-playbooks/lessons/lesson-01-playbook-fundamentals.md)
-      - [Lesson 02 — Common Scenarios](library/cybersecurity/blue-team/intermediate/module-05-incident-response-playbooks/lessons/lesson-02-common-scenarios.md)
+      - [Lesson 01 — Playbook Structure and Essentials](library/cybersecurity/blue-team/intermediate/module-05-incident-response-playbooks/lessons/lesson-01-playbook-structure-and-essentials.md)
+      - [Lesson 02 — Hands-on: Ransomware and Phishing Response](library/cybersecurity/blue-team/intermediate/module-05-incident-response-playbooks/lessons/lesson-02-hands-on-ransomware-phishing.md)
       - [Challenges](library/cybersecurity/blue-team/intermediate/module-05-incident-response-playbooks/challenges/README.md)
