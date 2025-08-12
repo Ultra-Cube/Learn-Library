@@ -129,3 +129,18 @@ Browse by domain, track, level, and module. Each lesson links directly; challeng
       - [Lesson 01 — Playbook Structure and Essentials](library/cybersecurity/blue-team/intermediate/module-05-incident-response-playbooks/lessons/lesson-01-playbook-structure-and-essentials.md)
       - [Lesson 02 — Hands-on: Ransomware and Phishing Response](library/cybersecurity/blue-team/intermediate/module-05-incident-response-playbooks/lessons/lesson-02-hands-on-ransomware-phishing.md)
       - [Challenges](library/cybersecurity/blue-team/intermediate/module-05-incident-response-playbooks/challenges/README.md)
+  - Red Team (Beginner)
+    - Module 01 — Introduction to Red Teaming
+      - [Lesson 01 — Red Team Basics](library/cybersecurity/red-team/beginner/module-01-intro-to-red-teaming/lesson-01-red-team-basics.md)
+    - Module 02 — Reconnaissance Fundamentals
+      - [Lesson 01 — Passive Reconnaissance](library/cybersecurity/red-team/beginner/module-02-reconnaissance-fundamentals/lesson-01-passive-reconnaissance.md)
+  - DevSecOps (Beginner)
+    - Module 01 — Secure Coding Introduction
+      - [Lesson 01 — Secure Coding Principles](library/cybersecurity/devsecops/beginner/module-01-secure-coding-intro/lesson-01-secure-coding-principles.md)
+    - Module 02 — CI/CD Security Basics
+      - [Lesson 01 — Pipeline Security Integration](library/cybersecurity/devsecops/beginner/module-02-cicd-security-basics/lesson-01-pipeline-security-integration.md)
+  - GRC (Beginner)
+    - Module 01 — Security Frameworks
+      - [Lesson 01 — Security Framework Overview](library/cybersecurity/grc/beginner/module-01-security-frameworks/lesson-01-framework-overview.md)
+    - Module 03 — Risk Fundamentals
+      - [Lesson 01 — Risk Identification and Assessment](library/cybersecurity/grc/beginner/module-03-risk-fundamentals/lesson-01-risk-identification-assessment.md)
