@@ -121,3 +121,7 @@ Browse by domain, track, level, and module. Each lesson links directly; challeng
       - [Lesson 01 — SIEM Query Fundamentals](library/cybersecurity/blue-team/intermediate/module-03-siem-query-basics/lessons/lesson-01-siem-query-fundamentals.md)
       - [Lesson 02 — From Exploration to Detection](library/cybersecurity/blue-team/intermediate/module-03-siem-query-basics/lessons/lesson-02-from-exploration-to-detection.md)
       - [Challenges](library/cybersecurity/blue-team/intermediate/module-03-siem-query-basics/challenges/README.md)
+    - Module 04 — Alert Tuning & False Positive Reduction
+      - [Lesson 01 — Alert Tuning Fundamentals](library/cybersecurity/blue-team/intermediate/module-04-alert-tuning-fp-reduction/lessons/lesson-01-alert-tuning-fundamentals.md)
+      - [Lesson 02 — Feedback Loops and Rule Lifecycle](library/cybersecurity/blue-team/intermediate/module-04-alert-tuning-fp-reduction/lessons/lesson-02-feedback-loops-and-lifecycle.md)
+      - [Challenges](library/cybersecurity/blue-team/intermediate/module-04-alert-tuning-fp-reduction/challenges/README.md)
