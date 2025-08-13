@@ -559,45 +559,168 @@ Content is released under CC BY 4.0. See `LICENSE`.
 
 ---
 
-## 📚 **Comprehensive Learning Index**
+## 📚 **Comprehensive Learning Index & Professional Roadmaps**
 
-### 🎯 **Professional Learning Paths by Domain**
+### **🎯 [Complete Learning Guide & Roadmaps](./docs/COMPREHENSIVE_INDEX.md)**
+*Detailed career pathways, skill progression, and certification alignment across all domains*
 
-> **Legend**: 🏆 = Comprehensive Expert-Authored Lesson | ⭐ = Enhanced Content | 📝 = Standard Lesson
+> **Professional Learning Navigation**: Each domain includes comprehensive roadmaps with weekly progression, hands-on labs, industry alignment, and certification preparation.
+
+### **🗺️ Domain-Specific Roadmaps**
+| **Domain** | **Roadmap Guide** | **Tracks** | **Duration** | **Certification Prep** |
+|------------|-------------------|------------|--------------|------------------------|
+| **🔒 Cybersecurity** | [Complete Roadmap](./library/cybersecurity/DOMAIN_ROADMAP.md) | 5 tracks | 10-16 weeks | Security+, CEH, CISSP |
+| **💻 Software Development** | [Complete Roadmap](./library/software-development/DOMAIN_ROADMAP.md) | 4 tracks | 14-20 weeks | Developer Certifications |
+| **📊 Data Science** | Coming Soon | 4 tracks | 16-20 weeks | Data Analytics Certs |
+| **📈 Digital Marketing** | Coming Soon | 4 tracks | 8-12 weeks | Google/Meta Certs |
+| **☁️ Cloud Computing** | Coming Soon | 4 tracks | 12-16 weeks | AWS/Azure Certs |
+| **🏗️ IT Infrastructure** | Coming Soon | 4 tracks | 10-14 weeks | Network+, RHCSA |
 
 ---
 
 ### 🔒 **CYBERSECURITY** | *Enterprise Security Training*
 
-#### **🎓 Foundations Track** (Beginner Level)
-**Industry-Standard Security Education with Real-World Applications**
+#### **🗺️ [Complete Cybersecurity Roadmap](./library/cybersecurity/DOMAIN_ROADMAP.md)**
+**5 Professional Tracks | 14-16 Week Programs | Industry Certification Alignment**
 
-- **Module 00**: Setup & Tools
-  - [📝 Lesson 01: Install Linux and Kali Linux](library/cybersecurity/foundations/beginner/module-00-setup-and-tools/lesson-01-install-linux-and-kali.md)
-  - [📝 Lesson 02: VS Code and GitHub Workflow](library/cybersecurity/foundations/beginner/module-00-setup-and-tools/lesson-02-vscode-and-github-workflow.md)
-  - [🎯 Challenges](library/cybersecurity/foundations/beginner/module-00-setup-and-tools/challenges/README.md)
+| **Track** | **Level** | **Duration** | **Career Focus** | **Certification Prep** |
+|-----------|-----------|--------------|------------------|-------------------------|
+| **🎓 Foundations** | Beginner | 14 weeks | Security Analyst | Security+, Network+ |
+| **🔵 Blue Team** | Intermediate | 12 weeks | SOC Analyst, Incident Response | CySA+, GCIH |
+| **🔴 Red Team** | Beginner-Advanced | 16 weeks | Penetration Tester | CEH, OSCP |
+| **🛡️ DevSecOps** | Intermediate | 10 weeks | Security Engineer | DevSecOps Pro |
+| **⚖️ GRC** | All Levels | 12 weeks | Risk Manager, Compliance | CISA, CRISC |
+
+#### **🎓 Foundations Track** (Beginner Level)
+*Industry-Standard Security Education with Real-World Applications*
+
+**🏆 Expert-Authored Lessons** | **📝 Standard Lessons** | **🎯 Hands-on Challenges**
 
 - **Module 01**: Introduction to Cybersecurity
-  - [🏆 Lesson 01: Cybersecurity Fundamentals - The Art and Science of Digital Protection](library/cybersecurity/foundations/beginner/module-01-introduction/lesson-01-cybersecurity-fundamentals.md)
-    - *50 minutes | Expert-authored with threat landscape analysis*
-    - *Industry sources: NIST, CISA, CrowdStrike, Verizon DBIR*
+  - [🏆 Cybersecurity Fundamentals - The Art and Science of Digital Protection](library/cybersecurity/foundations/beginner/module-01-introduction/lesson-01-cybersecurity-fundamentals.md)
+    - *45 minutes | Complete threat landscape analysis | NIST, CISA, CrowdStrike sources*
 
-- **Module 02**: Digital Hygiene & Identity Protection
-  - [🏆 Lesson 01: Authentication Security - Passwords, MFA, and Identity Protection](library/cybersecurity/foundations/beginner/module-02-digital-hygiene/lesson-01-passwords-and-mfa.md)
+- **Module 02**: Digital Hygiene & Identity Protection  
+  - [🏆 Authentication Security - Passwords, MFA, and Identity Protection](library/cybersecurity/foundations/beginner/module-02-digital-hygiene/lesson-01-passwords-and-mfa.md)
     - *45 minutes | NIST SP 800-63B compliance | MFA implementation labs*
-  - [🏆 Lesson 02: Cyber Resilience - Software Updates, Patch Management, and Backup Security](library/cybersecurity/foundations/beginner/module-02-digital-hygiene/lesson-02-updates-and-backups.md)
+  - [🏆 Cyber Resilience - Software Updates, Patch Management, and Backup Security](library/cybersecurity/foundations/beginner/module-02-digital-hygiene/lesson-02-updates-and-backups.md)  
     - *50 minutes | 3-2-1-1-0 backup strategy | Ransomware protection*
-  - [🎯 Challenges](library/cybersecurity/foundations/beginner/module-02-digital-hygiene/challenges/README.md)
 
 - **Module 03**: Safe Browsing & Communication
-  - [🏆 Lesson 01: Phishing Defense Mastery - Advanced Email Security and Social Engineering Detection](library/cybersecurity/foundations/beginner/module-03-safe-browsing/lesson-01-phishing-awareness.md)
+  - [🏆 Phishing Defense Mastery - Advanced Email Security and Social Engineering Detection](library/cybersecurity/foundations/beginner/module-03-safe-browsing/lesson-01-phishing-awareness.md)
     - *45 minutes | BEC analysis | AI-enhanced phishing defense*
-  - [📝 Lesson 02: Privacy and Browser Safety](library/cybersecurity/foundations/beginner/module-03-safe-browsing/lesson-02-privacy-and-browser-safety.md)
-  - [🎯 Challenges](library/cybersecurity/foundations/beginner/module-03-safe-browsing/challenges/README.md)
 
-- **Module 04**: Home Network Security
-  - [📝 Lesson 01: Secure Wi‑Fi and Router Settings](library/cybersecurity/foundations/beginner/module-04-home-network-security/lesson-01-secure-wifi-and-router.md)
-  - [📝 Lesson 02: Basic Network Monitoring at Home](library/cybersecurity/foundations/beginner/module-04-home-network-security/lesson-02-basic-network-monitoring.md)
+#### **🔴 Red Team Track** (Offensive Security)
+*Ethical Hacking and Penetration Testing Excellence*
+
+- **Module 01**: Introduction to Red Teaming
+  - [🏆 Red Team Fundamentals - Offensive Security and Ethical Hacking Mastery](library/cybersecurity/red-team/beginner/module-01-intro-to-red-teaming/lesson-01-red-team-basics.md)
+    - *55 minutes | MITRE ATT&CK framework | Ethical hacking principles*
+
+---
+
+### 💻 **SOFTWARE DEVELOPMENT** | *Modern Programming Excellence*
+
+#### **🗺️ [Complete Software Development Roadmap](./library/software-development/DOMAIN_ROADMAP.md)**
+**4 Professional Tracks | 14-20 Week Programs | Technology Stack Mastery**
+
+| **Track** | **Level** | **Duration** | **Technology Focus** | **Career Outcome** |
+|-----------|-----------|--------------|----------------------|-------------------|
+| **🎓 Foundations** | Beginner | 16 weeks | Programming Fundamentals | Entry-level Developer |
+| **🌐 Web Development** | All Levels | 20 weeks | Full-Stack (React/Node) | Web Developer |
+| **📱 Mobile Development** | Intermediate | 14 weeks | React Native/Flutter | Mobile Developer |
+| **🔧 Backend Engineering** | Intermediate | 18 weeks | APIs/Microservices | Backend Engineer |
+
+#### **🎓 Foundations Track** (Beginner Level)
+*Professional Software Engineering Training*
+
+- **Module 01**: Introduction to Software Development
+  - [🏆 Software Development Fundamentals - Building the Digital Future](library/software-development/foundations/beginner/module-01-introduction/lesson-01-software-development-fundamentals.md)
+    - *60 minutes | 1,262 lines | Complete SDLC coverage | Stack Overflow, GitHub, IEEE sources*
+
+---
+
+### 📊 **DATA SCIENCE** | *Analytics and Machine Learning Mastery*
+
+#### **🗺️ Complete Data Science Roadmap** *(Coming Soon)*
+**4 Professional Tracks | Advanced Analytics & AI/ML Engineering**
+
+| **Track** | **Focus** | **Duration** | **Skills** | **Preparation** |
+|-----------|-----------|--------------|------------|-----------------|
+| **🎓 Foundations** | Core Data Science | 18 weeks | Statistics, Python, pandas | ✅ Started |
+| **📈 Analytics** | Business Intelligence | 16 weeks | SQL, Tableau, Power BI | 🚀 Planned |
+| **🤖 Machine Learning** | AI Engineering | 20 weeks | TensorFlow, PyTorch | 🔄 Development |
+| **🏗️ Data Engineering** | Data Infrastructure | 18 weeks | Spark, Hadoop, Cloud | 🔄 Planning |
+
+#### **🎓 Foundations Track** (Beginner Level)
+*Professional Data Science and Analytics Training*
+
+- **Module 01**: Introduction to Data Science
+  - [🏆 Data Science Fundamentals](library/data-science/foundations/beginner/module-01-introduction/lesson-01-data-science-fundamentals.md)
+    - *55 minutes | Professional methodology and tools*
+
+---
+
+### 📈 **DIGITAL MARKETING** | *Technology-Driven Marketing Strategies*
+
+#### **🗺️ Complete Digital Marketing Roadmap** *(Expanding)*
+**4 Professional Tracks | Technology-Driven Growth Strategies**
+
+| **Track** | **Focus** | **Duration** | **Skills** | **Preparation** |
+|-----------|-----------|--------------|------------|-----------------|
+| **🎓 Foundations** | Core Digital Marketing | 12 weeks | Strategy, Analytics | ✅ Started |
+| **🔍 SEO/SEM** | Search Optimization | 10 weeks | Google Ads, SEO | 🚀 Planned |
+| **📱 Social Media** | Platform Marketing | 8 weeks | Social strategy | 🔄 Development |
+| **📊 Analytics** | Marketing Intelligence | 10 weeks | Data-driven marketing | 🔄 Planning |
+
+#### **🎓 Foundations Track** (Beginner Level)
+*Modern Digital Marketing and Analytics*
+
+- **Module 01**: Digital Marketing Fundamentals
+  - [🏆 Introduction to Digital Marketing](library/digital-marketing/foundations/beginner/module-01-introduction/lesson-01-digital-marketing-fundamentals.md)
+    - *50 minutes | Complete digital marketing ecosystem*
+
+---
+
+### ☁️ **CLOUD COMPUTING** | *Modern Infrastructure and Platform Services*
+
+#### **🗺️ Complete Cloud Computing Roadmap** *(Expanding)*
+**4 Professional Tracks | Multi-Cloud Platform Mastery**
+
+| **Track** | **Focus** | **Duration** | **Platforms** | **Preparation** |
+|-----------|-----------|--------------|---------------|-----------------|
+| **🎓 Foundations** | Cloud Concepts | 14 weeks | Multi-cloud basics | ✅ Started |
+| **☁️ AWS** | Amazon Web Services | 16 weeks | AWS Solutions Architect | 🚀 Planned |
+| **🔷 Azure** | Microsoft Azure | 16 weeks | Azure Administrator | 🔄 Development |
+| **🚀 DevOps** | Cloud Operations | 14 weeks | Infrastructure as Code | 🔄 Planning |
+
+#### **🎓 Foundations Track** (Beginner Level)
+*Cloud Platform Mastery and Modern Infrastructure*
+
+- **Module 01**: Cloud Fundamentals
+  - [🏆 Cloud Computing Fundamentals](library/cloud-computing/foundations/beginner/module-01-introduction/lesson-01-cloud-fundamentals.md)
+    - *50 minutes | Modern cloud platforms and services*
+
+---
+
+### 🏗️ **IT INFRASTRUCTURE** | *Systems Administration and Network Management*
+
+#### **🗺️ Complete IT Infrastructure Roadmap** *(Expanding)*
+**4 Professional Tracks | Enterprise Systems Management**
+
+| **Track** | **Focus** | **Duration** | **Skills** | **Preparation** |
+|-----------|-----------|--------------|------------|-----------------|
+| **🎓 Foundations** | Core Infrastructure | 14 weeks | Systems, Networks | ✅ Started |
+| **🌐 Networking** | Network Engineering | 12 weeks | Cisco, Routing | 🚀 Planned |
+| **🖥️ Systems Admin** | Server Management | 14 weeks | Linux, Windows | 🔄 Development |
+| **🤖 Automation** | Infrastructure as Code | 12 weeks | Ansible, Terraform | 🔄 Planning |
+
+#### **🎓 Foundations Track** (Beginner Level)
+*Enterprise Infrastructure and Systems Management*
+
+- **Module 01**: Introduction to IT Infrastructure
+  - [🏆 IT Infrastructure Fundamentals](library/it-infrastructure/foundations/beginner/module-01-introduction/lesson-01-it-infrastructure-fundamentals.md)
+    - *55 minutes | Enterprise systems and network management*
   - [🎯 Challenges](library/cybersecurity/foundations/beginner/module-04-home-network-security/challenges/README.md)
 
 - **Module 05**: Mobile Security
