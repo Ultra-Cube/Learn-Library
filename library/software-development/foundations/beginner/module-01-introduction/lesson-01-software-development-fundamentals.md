@@ -5,7 +5,7 @@ domain: "Software Development"
 track: "Foundations"
 level: "Beginner"
 module: "Introduction to Software Development"
-duration: "60 minutes"
+duration: 1h
 author: "UltraCube Software Engineering Team"
 version: "1.0"
 last_updated: "2025-08-13"

@@ -5,7 +5,7 @@ domain: "Digital Marketing"
 track: "Foundations"
 level: "Beginner"
 module: "Introduction to Digital Marketing"
-duration: "50 minutes"
+duration: 50m
 author: "UltraCube Digital Marketing Team"
 version: "1.0"
 last_updated: "2025-08-13"

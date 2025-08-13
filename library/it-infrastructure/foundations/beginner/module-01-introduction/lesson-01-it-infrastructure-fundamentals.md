@@ -5,7 +5,7 @@ domain: "IT Infrastructure"
 track: "Foundations"
 level: "Beginner"
 module: "Introduction to IT Infrastructure"
-duration: "55 minutes"
+duration: 55m
 author: "UltraCube Infrastructure Team"
 version: "1.0"
 last_updated: "2025-08-13"

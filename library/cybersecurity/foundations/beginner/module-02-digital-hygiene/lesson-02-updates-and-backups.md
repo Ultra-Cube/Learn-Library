@@ -5,7 +5,7 @@ domain: "Cybersecurity"
 track: "Foundations"
 level: "Beginner"
 module: "Digital Hygiene"
-duration: "50 minutes"
+duration: 50m
 author: "UltraCube Cybersecurity Team"
 version: "2.0"
 last_updated: "2025-08-13"

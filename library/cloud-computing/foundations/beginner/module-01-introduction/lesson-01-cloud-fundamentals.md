@@ -5,7 +5,7 @@ domain: "Cloud Computing"
 track: "Foundations"
 level: "Beginner"
 module: "Introduction to Cloud Computing"
-duration: "50 minutes"
+duration: 50m
 author: "UltraCube Cloud Infrastructure Team"
 version: "1.0"
 last_updated: "2025-08-13"

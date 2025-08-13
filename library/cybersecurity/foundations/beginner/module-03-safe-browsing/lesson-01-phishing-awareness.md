@@ -5,7 +5,7 @@ domain: "Cybersecurity"
 track: "Foundations"
 level: "Beginner"
 module: "Safe Browsing"
-duration: "45 minutes"
+duration: 45m
 author: "UltraCube Cybersecurity Team"
 version: "2.0"
 last_updated: "2025-08-13"

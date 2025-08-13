@@ -5,7 +5,7 @@ domain: "Cybersecurity"
 track: "Red Team"
 level: "Beginner"
 module: "Introduction to Red Teaming"
-duration: "55 minutes"
+duration: 55m
 author: "UltraCube Red Team Specialists"
 version: "2.0"
 last_updated: "2025-08-13"

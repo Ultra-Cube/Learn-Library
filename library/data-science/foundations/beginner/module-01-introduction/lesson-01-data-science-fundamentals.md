@@ -5,7 +5,7 @@ domain: "Data Science"
 track: "Foundations"
 level: "Beginner"
 module: "Introduction to Data Science"
-duration: "55 minutes"
+duration: 55m
 author: "UltraCube Data Science Team"
 version: "1.0"
 last_updated: "2025-08-13"
