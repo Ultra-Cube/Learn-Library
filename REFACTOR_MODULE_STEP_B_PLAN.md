@@ -6,7 +6,7 @@ Objective: Consolidate duplicate introductory module directories (e.g., `module-
 
 | Domain | Canonical Target Folder | Duplicate Folder(s) | Primary Lesson File (Rich) | Secondary (Shallow) |
 |--------|-------------------------|---------------------|----------------------------|---------------------|
-| Cloud Computing | module-01-cloud-fundamentals (DONE) | module-01-introduction (stub redirect only) | lesson-01-introduction-to-cloud-computing.md (merged) | lesson-01-cloud-computing-fundamentals.md (canonical) |
+| Cloud Computing | module-01-cloud-fundamentals (DONE) | module-01-introduction (minimal redirect stub in place) | lesson-01-cloud-computing-fundamentals.md (canonical) | (legacy stub only) |
 | Cybersecurity | module-01-introduction (rename to module-01-cybersecurity-fundamentals) | N/A (only intro naming) | lesson-01-cybersecurity-fundamentals.md | — |
 | Data Science | module-01-data-science-fundamentals | module-01-introduction | lesson-01-introduction-to-data-science.md | lesson-01-data-science-fundamentals.md |
 | Digital Marketing | module-01-digital-marketing-fundamentals | module-01-introduction | lesson-01-introduction-to-digital-marketing.md | lesson-01-digital-marketing-fundamentals.md |
@@ -26,7 +26,7 @@ Objective: Consolidate duplicate introductory module directories (e.g., `module-
 
 ## Execution Order (Minimize Broken Links Window)
 
-1. Cloud: Merge `module-01-introduction` into `module-01-cloud-fundamentals` (Completed: migration, cleanup, link updates, legacy removed).
+1. Cloud: Merge `module-01-introduction` into `module-01-cloud-fundamentals` (Completed: migration, cleanup, canonical formatting, legacy replaced with minimal stub).
 2. Data Science: Merge intro into fundamentals similarly.
 3. Digital Marketing: Merge intro into fundamentals.
 4. IT Infrastructure: Merge intro into infrastructure-fundamentals.
@@ -56,4 +56,4 @@ Will perform targeted replacements rather than blanket regex to avoid accidental
 
 ---
 
-Prepared for execution. Next step: begin Cloud Computing consolidation.
+Status Update (2025-09-02): Cloud domain consolidation complete; canonical lesson formatted (tabs removed). Minimal stub retained only for link hygiene pending audit; scheduled for full removal after confirmation of zero inbound references.

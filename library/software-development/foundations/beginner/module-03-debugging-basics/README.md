@@ -5,6 +5,8 @@ This module introduces systematic debugging practices, tools, and workflows to e
 ## Lessons
 
 - [Lesson 01: Introduction to Debugging](lesson-01-introduction-to-debugging.md)
+- [Lesson 02: Debugging Tools and Techniques](lesson-02-debugging-tools-and-techniques.md)
+- [Lesson 03: Error Monitoring and Observability Foundations](lesson-03-error-monitoring-and-observability.md)
 
 ## Learning Objectives
 

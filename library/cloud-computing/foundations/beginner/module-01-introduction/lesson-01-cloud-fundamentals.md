@@ -2,123 +2,19 @@
 title: Legacy Path Stub: Cloud Computing Fundamentals
 deprecated: true
 status: moved
-last_updated: 2025-09-01
+last_updated: 2025-09-02
 redirect: ../module-01-cloud-fundamentals/lesson-01-cloud-computing-fundamentals.md
-note: This legacy path remains temporarily to avoid broken links after consolidation. Update references to the canonical file and remove this stub in a future cleanup.
+note: This legacy path is a minimal redirect stub. Update all references to the canonical lesson; this file will be removed after link audits.
 ---
 
-Cloud Computing Fundamentals (Moved)
-=================================
+# Cloud Computing Fundamentals (Moved)
 
-> This lesson has moved to the canonical path:
->
-> `library/cloud-computing/foundations/beginner/module-01-cloud-fundamentals/lesson-01-cloud-computing-fundamentals.md`
->
-> Please update any bookmarks or internal links. This stub contains no instructional material and will be removed after link audits.
-
-_No instructional content is retained here._
-    subgraph "Organization"
-        A[On-Premises Infrastructure]
-        B[Private Cloud]
-        C[Edge Computing]
-    end
-    
-    subgraph "Public Cloud Providers"
-        D[AWS Services]
-        E[Azure Services]
-        F[Google Cloud Services]
-    end
-    
-    G[Hybrid Cloud Management Platform]
-    
-    A -.-> G
-    B -.-> G
-    C -.-> G
-    D -.-> G
-    E -.-> G
-    F -.-> G
-    
-    G --> H[Unified Management]
-    G --> I[Data Integration]
-    G --> J[Security Orchestration]
-```
-
-**Benefits**:
-- **Flexibility**: Choose optimal environment for each workload
-- **Cost Optimization**: Balance cost and performance
-- **Compliance**: Keep sensitive data on-premises
-- **Scalability**: Burst to public cloud for peak demand
-
-**Challenges**:
-- Complexity in management
-- Integration difficulties
-- Security across environments
-- Skill requirements
-
-### 🌍 **Multi-Cloud**
-
-**Definition**: Use of multiple cloud computing services from different providers.
-
-**Multi-Cloud Strategies**:
-1. **Best-of-Breed**: Select best services from each provider
-2. **Risk Mitigation**: Avoid vendor lock-in
-3. **Geographic Distribution**: Leverage global presence
-4. **Cost Optimization**: Compare pricing across providers
-
-**Multi-Cloud Adoption Statistics** (Flexera 2024):
-- **89%** of organizations use multi-cloud strategy
-- **Average number of clouds**: 4.1 per organization
-- **Primary drivers**: Avoid vendor lock-in (68%), Best-of-breed (47%)
-
----
-
-## 🏆 Major Cloud Providers Comparison
-
-### 🔶 **Amazon Web Services (AWS)**
-
-**Founded**: 2006 | **Market Position**: Leader
-**Global Reach**: 32 regions, 102 availability zones
-
-**Strengths**:
-- Largest service portfolio (200+ services)
-- Mature ecosystem and community
-- Extensive partner network
-- Strong enterprise adoption
-
-**Key Services**:
-- **Compute**: EC2, Lambda, ECS, EKS
-- **Storage**: S3, EBS, EFS, Glacier
-- **Database**: RDS, DynamoDB, Redshift
-- **AI/ML**: SageMaker, Rekognition, Comprehend
-
-**Pricing Model**: Pay-as-you-go with volume discounts
-
-### 🔷 **Microsoft Azure**
-
-**Founded**: 2010 | **Market Position**: Strong Second
-**Global Reach**: 60+ regions worldwide
-
-**Strengths**:
-- Strong enterprise integration (Office 365, Windows)
-- Hybrid cloud leadership
-- Comprehensive compliance certifications
-- Developer-friendly tools
-
-**Key Services**:
-- **Compute**: Virtual Machines, Azure Functions, AKS
-- **Storage**: Blob Storage, Azure Files, Data Lake
-- **Database**: SQL Database, Cosmos DB, Synapse
-- **AI/ML**: Cognitive Services, Machine Learning Studio
-
-**Unique Value**: Seamless integration with Microsoft ecosystem
-
-### 🔴 **Google Cloud Platform (GCP)**
-
-**Founded**: 2011 | **Market Position**: Growing Fast
-**Global Reach**: 35 regions, 106 zones
-
-**Strengths**:
 - AI/ML leadership (TensorFlow, BigQuery ML)
+`library/cloud-computing/foundations/beginner/module-01-cloud-fundamentals/lesson-01-cloud-computing-fundamentals.md`
+
+Please update any bookmarks or internal links. No instructional content is retained here.
+
+_Stub last verified:_ 2025-09-02
 - Data analytics capabilities
 - Kubernetes and container expertise
 - Competitive pricing
