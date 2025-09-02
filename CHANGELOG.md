@@ -1,28 +1,37 @@
 # Changelog
 
+<!-- markdownlint-disable MD024 -->
+
 All notable changes to the Learn-Library project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-
+ 
 ### Added
+
+- Lesson: Software Development > Foundations > Beginner > Module 03 Debugging Basics > Lesson 02 Debugging Tools and Techniques (new comprehensive lesson with tooling, logging, distributed debugging, and practice tasks)
+- Lesson: Software Development > Foundations > Beginner > Module 03 Debugging Basics > Lesson 03 Error Monitoring and Observability Foundations (signals, golden signals, SLO basics, tracing essentials)
 - Upcoming advanced lessons in Machine Learning and AI
 - Interactive coding environments integration
 - Community discussion forums
 - Progress tracking and certification system
 
 ### Changed
+
 - Improved lesson navigation and search functionality
 - Enhanced mobile responsiveness
+- Lint compliance adjustments (headings & list spacing) in new lesson
 
 ### Deprecated
+
 - Legacy lesson format (to be replaced by interactive format)
 
 ## [1.2.0] - 2025-08-13
 
 ### Added
+
 - **Comprehensive Foundational Lessons** across all major technology domains
   - Software Development: Programming Fundamentals (60 min)
   - Software Development: Data Structures & Algorithms (75 min)
@@ -47,12 +56,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Professional development environment setup
 
 ### Enhanced
+
 - **Lesson Structure** with consistent 50-75 minute professional format
 - **Code Quality** with production-ready examples and best practices
 - **Learning Outcomes** with measurable objectives and career pathways
 - **Industry Relevance** with current technology stacks and frameworks
 
 ### Technical Improvements
+
 - Added comprehensive Python, JavaScript, and Node.js examples
 - Implemented Docker and Kubernetes deployment strategies
 - Included CI/CD pipeline configurations
@@ -62,6 +73,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.1.0] - 2025-08-10
 
 ### Added
+
 - **Domain Structure** for organized learning paths
   - Software Development domain with beginner to advanced tracks
   - Data Science domain with comprehensive curriculum
@@ -83,11 +95,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Collaboration tools setup
 
 ### Changed
+
 - **Restructured curriculum** for better learning progression
 - **Improved lesson templates** with consistent formatting
 - **Enhanced README** with clear navigation and setup instructions
 
 ### Fixed
+
 - Broken links in navigation
 - Inconsistent lesson formatting
 - Missing prerequisite information
@@ -95,6 +109,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2025-08-05
 
 ### Added
+
 - **Initial Project Structure**
   - Complete domain organization for technology education
   - Foundational lesson templates and structure
@@ -114,6 +129,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Progress tracking templates
 
 ### Technical Infrastructure
+
 - Git-based version control and collaboration
 - Markdown-based content for accessibility
 - Modular lesson structure for scalability
@@ -128,24 +144,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This release marks a major milestone in the Learn-Library project with the addition of **7 comprehensive, expert-authored lessons** that establish the foundation for professional technology education. Each lesson is designed as a complete learning experience with:
 
 #### Professional Quality Standards
+
 - **Industry Expert Content**: All lessons include citations from major technology companies, research institutions, and industry leaders
 - **Real-World Applications**: Every lesson includes hands-on projects that solve actual business problems
 - **Career Development**: Comprehensive salary ranges and progression paths for each technology domain
 - **Business Impact**: Quantified benefits and ROI calculations for practical implementations
 
 #### Technical Excellence
+
 - **Production-Ready Code**: All examples use current best practices and professional development standards
 - **Complete Implementations**: Full-stack applications with deployment pipelines and monitoring
 - **Security Integration**: Enterprise-grade security practices embedded throughout
 - **Performance Optimization**: Advanced techniques for scalability and efficiency
 
 #### Learning Experience
+
 - **Structured Progression**: Clear prerequisites and learning paths between lessons
 - **Hands-On Practice**: Extensive coding labs with guided implementations
 - **Professional Tools**: Industry-standard development environments and workflows
 - **Assessment Integration**: Practical projects that demonstrate mastery
 
 ### Upcoming in Version 1.3.0
+
 - **Advanced Specialization Tracks**: Machine Learning, DevOps, and Cloud Architecture
 - **Interactive Learning Environment**: In-browser coding with real-time feedback
 - **Community Features**: Discussion forums, peer review, and mentorship programs
