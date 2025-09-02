@@ -8,7 +8,7 @@ Objective: Consolidate duplicate introductory module directories (e.g., `module-
 |--------|-------------------------|---------------------|----------------------------|---------------------|
 | Cloud Computing | module-01-cloud-fundamentals (DONE) | module-01-introduction (minimal redirect stub in place) | lesson-01-cloud-computing-fundamentals.md (canonical) | (legacy stub only) |
 | Cybersecurity | module-01-introduction (rename to module-01-cybersecurity-fundamentals) | N/A (only intro naming) | lesson-01-cybersecurity-fundamentals.md | — |
-| Data Science | module-01-data-science-fundamentals | module-01-introduction | lesson-01-introduction-to-data-science.md | lesson-01-data-science-fundamentals.md |
+| Data Science | module-01-data-science-fundamentals (DONE) | module-01-introduction (stub) | lesson-01-introduction-to-data-science.md (canonical) | (legacy stub only) |
 | Digital Marketing | module-01-digital-marketing-fundamentals | module-01-introduction | lesson-01-introduction-to-digital-marketing.md | lesson-01-digital-marketing-fundamentals.md |
 | IT Infrastructure | module-01-infrastructure-fundamentals | module-01-introduction | lesson-01-introduction-to-it-infrastructure.md | lesson-01-it-infrastructure-fundamentals.md |
 | Software Development | module-01-programming-fundamentals | module-01-introduction | lesson-01-software-development-fundamentals.md | (module README) |
@@ -57,3 +57,5 @@ Will perform targeted replacements rather than blanket regex to avoid accidental
 ---
 
 Status Update (2025-09-02): Cloud domain consolidation complete; canonical lesson formatted (tabs removed). Minimal stub retained only for link hygiene pending audit; scheduled for full removal after confirmation of zero inbound references.
+
+Status Update (2025-09-02 #2): Data Science domain consolidation executed. Legacy `module-01-introduction/lesson-01-data-science-fundamentals.md` replaced with redirect stub to `module-01-data-science-fundamentals/lesson-01-introduction-to-data-science.md`. Refactor plan updated accordingly.

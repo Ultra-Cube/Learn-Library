@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved lesson navigation and search functionality
 - Enhanced mobile responsiveness
 - Lint compliance adjustments (headings & list spacing) in new lesson
+- Data Science: Consolidated duplicate Module 01 lessons (legacy fundamentals lesson replaced with redirect stub to canonical introduction lesson)
 
 ### Deprecated
 
