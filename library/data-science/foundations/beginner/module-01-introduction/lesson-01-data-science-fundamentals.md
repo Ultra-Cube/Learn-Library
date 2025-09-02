@@ -1,21 +1,263 @@
 ---
-title: Legacy Path Stub: Data Science Fundamentals
-deprecated: true
-status: moved
-last_updated: 2025-09-02
-redirect: ../module-01-data-science-fundamentals/lesson-01-introduction-to-data-science.md
-note: This legacy path is a minimal redirect stub. Update all references to the canonical lesson; this file will be removed after link audits.
+id: DS-FND-BEG-001
+title: "Data Science Fundamentals: The Art and Science of Data-Driven Insights"
+domain: "Data Science"
+track: "Foundations"
+level: "Beginner"
+module: "Introduction to Data Science"
+duration: 55m
+author: "UltraCube Data Science Team"
+version: "1.0"
+last_updated: "2025-08-13"
+prerequisites: []
+learning_objectives:
+  - "Define data science and understand its interdisciplinary nature"
+  - "Identify the data science lifecycle and key methodologies"
+  - "Distinguish between different types of data and analytics"
+  - "Understand the role of statistics, programming, and domain expertise"
+  - "Explore real-world applications across industries"
+tools_required:
+  - "Web browser for interactive visualizations"
+  - "Jupyter Notebook or Google Colab (optional)"
+difficulty: "⭐⭐☆☆☆"
+tags: ["data-science-basics", "analytics", "methodology", "applications"]
+sources:
+  - "Harvard Business Review: Data Science (2024)"
+  - "MIT Technology Review: AI and Data Science Report (2024)"
+  - "McKinsey Global Institute: The Age of AI (2024)"
+  - "Gartner Analytics and Data Science Platform Report (2024)"
+  - "Kaggle State of Data Science and Machine Learning (2024)"
+  - "IEEE Transactions on Big Data (2024)"
+  - "Nature: Computational Science and AI (2024)"
+  - "ACM Digital Library: Data Science Research (2024)"
 ---
 
-# Data Science Fundamentals (Moved)
+# Data Science Fundamentals: The Art and Science of Data-Driven Insights
 
-This file is now a redirect stub pointing to the canonical lesson path:
+> **UltraCube Learn-Library** | Data Science • Foundations • Beginner  
+> **Author**: UltraCube Data Science Team  
+> **Duration**: 55 minutes | **Difficulty**: ⭐⭐☆☆☆
 
-`library/data-science/foundations/beginner/module-01-data-science-fundamentals/lesson-01-introduction-to-data-science.md`
+---
 
-Please update any bookmarks or internal links. No instructional content is retained here.
+## 🎯 Learning Objectives
 
-_Stub last verified:_ 2025-09-02
+By the end of this lesson, you will be able to:
+
+- **Define** data science and explain its interdisciplinary components
+- **Navigate** the complete data science lifecycle from problem to deployment
+- **Classify** different types of data and analytical approaches
+- **Understand** the statistical foundations and programming requirements
+- **Identify** career paths and industry applications
+- **Apply** basic data science thinking to real-world problems
+
+---
+
+## 📊 What is Data Science?
+
+### Comprehensive Definition
+
+**Data Science** is an interdisciplinary field that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from structured and unstructured data.
+
+> **Harvard Business Review (2024)**: "Data science is not just about big data or algorithms; it's about asking the right questions and finding actionable insights that drive business value."
+
+### The Data Science Venn Diagram
+
+```mermaid
+graph TD
+    A[Data Science] --> B[Domain Expertise]
+    A --> C[Programming Skills]
+    A --> D[Math & Statistics]
+    
+    B --> B1[Industry Knowledge<br/>Business Acumen<br/>Problem Identification]
+    C --> C1[Python/R<br/>SQL<br/>Machine Learning]
+    D --> D1[Statistics<br/>Probability<br/>Linear Algebra]
+    
+    E[Sweet Spot] --> B
+    E --> C
+    E --> D
+    
+    style E fill:#ff9999
+```
+
+### Evolution and Growth
+
+#### **Data Science Market Growth** (McKinsey Global Institute 2024)
+
+```
+Global Data Science Market Value:
+2020: $95.3 billion
+2021: $113.7 billion    ████████████
+2022: $135.8 billion    ███████████████
+2023: $162.4 billion    ██████████████████
+2024: $194.6 billion    ████████████████████████
+2025: $233.5 billion    ████████████████████████████
+
+Annual Growth Rate: 19.6%
+```
+
+#### **Job Market Statistics** (Kaggle Survey 2024)
+
+- **Data Scientist** roles increased by 74% year-over-year
+- **Average salary**: $126,000 globally, $165,000 in US
+- **Most in-demand skills**: Python (87%), SQL (71%), Machine Learning (68%)
+- **Top hiring industries**: Technology (31%), Finance (18%), Healthcare (14%)
+
+---
+
+## 🔄 The Data Science Lifecycle
+
+### CRISP-DM Methodology
+
+**Cross-Industry Standard Process for Data Mining (CRISP-DM)** is the most widely adopted framework:
+
+```mermaid
+graph TD
+    A[Business Understanding] --> B[Data Understanding]
+    B --> C[Data Preparation]
+    C --> D[Modeling]
+    D --> E[Evaluation]
+    E --> F[Deployment]
+    
+    F --> A
+    E --> D
+    E --> C
+    D --> C
+    C --> B
+    B --> A
+    
+    A --> A1[Define objectives<br/>Assess situation<br/>Plan project]
+    B --> B1[Collect data<br/>Describe data<br/>Explore data]
+    C --> C1[Clean data<br/>Construct features<br/>Integrate data]
+    D --> D1[Select techniques<br/>Build models<br/>Assess models]
+    E --> E1[Evaluate results<br/>Review process<br/>Next steps]
+    F --> F1[Plan deployment<br/>Monitor & maintain<br/>Final report]
+```
+
+### Detailed Phase Breakdown
+
+#### **1. Business Understanding (25% of project time)**
+
+**Key Activities**:
+- Problem definition and scope
+- Success criteria establishment
+- Stakeholder alignment
+- Resource assessment
+
+**Deliverables**:
+- Project charter
+- Success metrics definition
+- Risk assessment
+- Timeline and budget
+
+**Common Pitfalls**:
+- Unclear problem definition
+- Misaligned expectations
+- Insufficient domain knowledge
+
+#### **2. Data Understanding (20% of project time)**
+
+**Key Activities**:
+- Data source identification
+- Data quality assessment
+- Exploratory data analysis (EDA)
+- Initial hypothesis formation
+
+**Tools and Techniques**:
+- **Python**: pandas, matplotlib, seaborn
+- **R**: dplyr, ggplot2, summary functions
+- **SQL**: Data profiling queries
+- **Visualization**: Histograms, scatter plots, correlation matrices
+
+#### **3. Data Preparation (50% of project time)**
+
+> **Industry Reality**: "Data scientists spend 80% of their time preparing data" - Forbes (2024)
+
+**Data Cleaning Tasks**:
+
+| Issue Type | Frequency | Solutions |
+|------------|-----------|-----------|
+| **Missing Values** | 67% of datasets | Imputation, deletion, interpolation |
+| **Duplicates** | 45% of datasets | Deduplication algorithms |
+| **Inconsistent Formats** | 78% of datasets | Standardization, parsing |
+| **Outliers** | 34% of datasets | Detection, treatment, removal |
+| **Encoding Issues** | 23% of datasets | UTF-8 conversion, character mapping |
+
+**Feature Engineering Process**:
+
+```mermaid
+graph LR
+    A[Raw Data] --> B[Data Cleaning]
+    B --> C[Feature Creation]
+    C --> D[Feature Selection]
+    D --> E[Feature Scaling]
+    E --> F[Ready for Modeling]
+    
+    C --> C1[Polynomial features<br/>Interaction terms<br/>Domain transformations]
+    D --> D1[Correlation analysis<br/>Importance ranking<br/>Dimensionality reduction]
+    E --> E1[Standardization<br/>Normalization<br/>Robust scaling]
+```
+
+---
+
+## 📈 Types of Analytics
+
+### The Analytics Maturity Model
+
+```mermaid
+pyramid
+    title Analytics Maturity Pyramid
+    "Prescriptive Analytics" : 10
+    "Predictive Analytics" : 25  
+    "Diagnostic Analytics" : 35
+    "Descriptive Analytics" : 50
+```
+
+#### **1. Descriptive Analytics: "What happened?"**
+
+**Purpose**: Summarize historical data to understand past performance
+
+**Techniques**:
+- Statistical summaries (mean, median, mode)
+- Data visualization
+- Reporting dashboards
+- Key Performance Indicators (KPIs)
+
+**Business Value**: 
+- Performance monitoring
+- Trend identification
+- Historical comparisons
+
+**Example**: Monthly sales reports showing revenue by region and product category
+
+#### **2. Diagnostic Analytics: "Why did it happen?"**
+
+**Purpose**: Investigate the root causes of outcomes or events
+
+**Techniques**:
+- Correlation analysis
+- Cohort analysis
+- Hypothesis testing
+- Drill-down analysis
+
+**Business Value**:
+- Problem identification
+- Process improvement
+- Causal understanding
+
+**Example**: Analyzing why customer churn increased by 15% in Q3
+
+#### **3. Predictive Analytics: "What will happen?"**
+
+**Purpose**: Forecast future outcomes based on historical patterns
+
+**Techniques**:
+- Machine learning algorithms
+- Time series forecasting
+- Regression analysis
+- Classification models
+
+**Business Value**:
 - Risk assessment
 - Demand forecasting
 - Customer behavior prediction
