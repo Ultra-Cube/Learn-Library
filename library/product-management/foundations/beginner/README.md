@@ -3,8 +3,10 @@
 Welcome to the beginner track for Product Management Foundations. This track covers essential product management concepts, practical skills, and modern roadmapping techniques.
 
 ## Modules
+
 - [Module 01: Product Management Fundamentals](module-01-product-management-fundamentals/README.md)
 - [Module 02: Roadmapping Basics](module-02-roadmapping-basics/README.md)
+- [Module 03: User Research Basics](module-03-user-research-basics/README.md)
 
 ---
 

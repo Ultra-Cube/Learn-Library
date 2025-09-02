@@ -1,15 +1,34 @@
-# Cybersecurity / Foundations / Beginner — Introduction
+# Cybersecurity Foundations Beginner — Introduction
 
-Start here: comprehensive cybersecurity fundamentals with industry insights, visual learning elements, and hands-on exercises.
+Core principles, threat landscape orientation, and foundational defense mindset for all subsequent cybersecurity tracks.
 
 ## Lessons
 
-- Lesson 01 — Cybersecurity Fundamentals: The Art and Science of Digital Protection
+- Lesson 01 — Cybersecurity Fundamentals Overview
 
-## Outcomes
+## Learning Objectives
 
-- Master the cybersecurity landscape and threat ecosystem
-- Understand defense frameworks (NIST, ISO 27001, MITRE ATT&CK)
-- Apply security principles across personal and enterprise environments
-- Navigate cybersecurity career paths and professional development
-- Implement practical security controls and incident response procedures
+- Characterize the modern threat landscape (actors, motives, vectors)
+- Explain core security principles (CIA triad, least privilege, defense-in-depth)
+- Map foundational frameworks (NIST CSF, ISO 27001, MITRE ATT&CK) to controls
+- Differentiate preventive, detective, and responsive controls
+- Outline baseline hardening practices for users and endpoints
+
+## Visual Overview
+
+```mermaid
+graph TD
+	A[Threat Landscape] --> B[Attack Vectors]
+	A --> C[Actors]
+	B --> D[Controls]
+	C --> D
+	D --> E[Reduced Risk]
+```
+
+## Summary
+
+Launch point for deeper specialization: cloud security, secure coding, red/blue team paths.
+
+---
+
+Proceed to the lesson to begin building defensive intuition.

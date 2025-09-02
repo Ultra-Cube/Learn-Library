@@ -3,6 +3,7 @@
 Welcome to the beginner track for Cybersecurity Foundations. This track covers essential cybersecurity concepts, practical skills, and modern defense strategies.
 
 ## Modules
+
 - [Module 00: Setup and Tools](module-00-setup-and-tools/README.md)
 - [Module 01: Introduction](module-01-introduction/README.md)
 - [Module 02: Digital Hygiene](module-02-digital-hygiene/README.md)

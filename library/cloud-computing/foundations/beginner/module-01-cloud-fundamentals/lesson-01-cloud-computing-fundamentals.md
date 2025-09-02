@@ -65,16 +65,16 @@ According to the **National Institute of Standards and Technology (NIST SP 800-1
 
 ```mermaid
 graph TD
-	A[Cloud Computing] --> B[On-Demand Self-Service]
-	A --> C[Broad Network Access]
-	A --> D[Resource Pooling]
-	A --> E[Rapid Elasticity]
-	A --> F[Measured Service]
-	B --> B1[Provision resources]
-	C --> C1[Available via network]
-	D --> D1[Multi-tenant model]
-	E --> E1[Scales with demand]
-	F --> F1[Metered & Transparent]
+A[Cloud Computing] --> B[On-Demand Self-Service]
+A --> C[Broad Network Access]
+A --> D[Resource Pooling]
+A --> E[Rapid Elasticity]
+A --> F[Measured Service]
+B --> B1[Provision resources]
+C --> C1[Available via network]
+D --> D1[Multi-tenant model]
+E --> E1[Scales with demand]
+F --> F1[Metered & Transparent]
 ```
 
 - Virtual machines (compute)
@@ -93,14 +93,14 @@ graph TD
 
 ```mermaid
 graph LR
-	A[IaaS Use Cases] --> B[Website Hosting]
-	A --> C[Development Environments]
-	A --> D[Backup & Recovery]
-	A --> E[High-Performance Computing]
-	B --> B1[Web servers]
-	C --> C1[Test environments]
-	D --> D1[Offsite backup]
-	E --> E1[Scientific computing]
+  A[IaaS Use Cases] --> B[Website Hosting]
+  A --> C[Development Environments]
+  A --> D[Backup & Recovery]
+  A --> E[High-Performance Computing]
+  B --> B1[Web servers]
+  C --> C1[Test environments]
+  D --> D1[Offsite backup]
+  E --> E1[Scientific computing]
 ```
 
 **Leading IaaS Providers**:
@@ -122,14 +122,14 @@ graph LR
 
 ```mermaid
 graph TD
-	A[Your Applications & Data] --> B[PaaS Platform Layer]
-	B --> C[Runtime Environment]
-	B --> D[Development Tools]
-	B --> E[Database Services]
-	B --> F[Middleware]
-	B --> G[Operating System]
-	G --> H[Virtualization]
-	H --> I[Physical Infrastructure]
+  A[Your Applications & Data] --> B[PaaS Platform Layer]
+  B --> C[Runtime Environment]
+  B --> D[Development Tools]
+  B --> E[Database Services]
+  B --> F[Middleware]
+  B --> G[Operating System]
+  G --> H[Virtualization]
+  H --> I[Physical Infrastructure]
 ```
 
 **Leading PaaS Providers**:
@@ -180,12 +180,12 @@ _Source: Gartner SaaS Market Analysis 2024_
 
 ```mermaid
 pie title SaaS Adoption Drivers (IDC Survey 2024)
-	"Cost Reduction" : 28
-	"Scalability" : 23
-	"Accessibility" : 19
-	"Automatic Updates" : 15
-	"Security" : 10
-	"Integration" : 5
+  "Cost Reduction" : 28
+  "Scalability" : 23
+  "Accessibility" : 19
+  "Automatic Updates" : 15
+  "Security" : 10
+  "Integration" : 5
 ```
 
 ---
@@ -260,26 +260,26 @@ Large Workloads (> 500 VMs):   Private Cloud: 25% more expensive
 
 ```mermaid
 graph TB
-	subgraph "Organization"
-		A[On-Premises Infrastructure]
-		B[Private Cloud]
-		C[Edge Computing]
-	end
-	subgraph "Public Cloud Providers"
-		D[AWS Services]
-		E[Azure Services]
-		F[Google Cloud Services]
-	end
-	G[Hybrid Cloud Management Platform]
-	A -.-> G
-	B -.-> G
-	C -.-> G
-	D -.-> G
-	E -.-> G
-	F -.-> G
-	G --> H[Unified Management]
-	G --> I[Data Integration]
-	G --> J[Security Orchestration]
+  subgraph "Organization"
+    A[On-Premises Infrastructure]
+    B[Private Cloud]
+    C[Edge Computing]
+  end
+  subgraph "Public Cloud Providers"
+    D[AWS Services]
+    E[Azure Services]
+    F[Google Cloud Services]
+  end
+  G[Hybrid Cloud Management Platform]
+  A -.-> G
+  B -.-> G
+  C -.-> G
+  D -.-> G
+  E -.-> G
+  F -.-> G
+  G --> H[Unified Management]
+  G --> I[Data Integration]
+  G --> J[Security Orchestration]
 ```
 
 **Benefits**:
@@ -399,32 +399,32 @@ graph TB
 
 ```mermaid
 graph TB
-	subgraph "On-Premises Costs"
-		A1[Hardware Purchase]
-		A2[Software Licenses]
-		A3[Data Center Space]
-		A4[Power & Cooling]
-		A5[IT Staff]
-		A6[Maintenance]
-	end
-	subgraph "Cloud Costs"
-		B1[Compute Resources]
-		B2[Storage & Bandwidth]
-		B3[Managed Services]
-		B4[Support Plans]
-		B5[Training & Migration]
-	end
-	A1 --> C[Total On-Premises TCO]
-	A2 --> C
-	A3 --> C
-	A4 --> C
-	A5 --> C
-	A6 --> C
-	B1 --> D[Total Cloud TCO]
-	B2 --> D
-	B3 --> D
-	B4 --> D
-	B5 --> D
+  subgraph "On-Premises Costs"
+    A1[Hardware Purchase]
+    A2[Software Licenses]
+    A3[Data Center Space]
+    A4[Power & Cooling]
+    A5[IT Staff]
+    A6[Maintenance]
+  end
+  subgraph "Cloud Costs"
+    B1[Compute Resources]
+    B2[Storage & Bandwidth]
+    B3[Managed Services]
+    B4[Support Plans]
+    B5[Training & Migration]
+  end
+  A1 --> C[Total On-Premises TCO]
+  A2 --> C
+  A3 --> C
+  A4 --> C
+  A5 --> C
+  A6 --> C
+  B1 --> D[Total Cloud TCO]
+  B2 --> D
+  B3 --> D
+  B4 --> D
+  B5 --> D
 ```
 
 #### **Cloud Cost Optimization Strategies**
@@ -469,7 +469,7 @@ Business Premium licenses (200 users): $60,000
 Migration consulting:                   $15,000
 Training:                              $5,000
 Total Annual Cost:                     $80,000 (Year 1)
-	$60,000 (Years 2+)
+  $60,000 (Years 2+)
 ```
 
 **ROI Calculation**:
@@ -497,13 +497,13 @@ Total Annual Cost:                     $80,000 (Year 1)
 
 ```mermaid
 graph LR
-	A[Assessment Phase] --> B[Pilot Migration]
-	B --> C[Phased Rollout]
-	C --> D[Optimization]
-	A --> A1[Infrastructure audit]
-	B --> B1[Non-critical systems]
-	C --> C1[Core clinical systems]
-	D --> D1[Performance tuning]
+  A[Assessment Phase] --> B[Pilot Migration]
+  B --> C[Phased Rollout]
+  C --> D[Optimization]
+  A --> A1[Infrastructure audit]
+  B --> B1[Non-critical systems]
+  C --> C1[Core clinical systems]
+  D --> D1[Performance tuning]
 ```
 
 **Results**:
@@ -542,11 +542,11 @@ graph LR
 **Instructions**:
 
 1. Create a comparison matrix for these service categories:
-	- Virtual Machines
-	- Object Storage
-	- Managed Databases
-	- Content Delivery Network
-	- Machine Learning Platform
+  - Virtual Machines
+  - Object Storage
+  - Managed Databases
+  - Content Delivery Network
+  - Machine Learning Platform
 
 **Template**:
 
@@ -630,12 +630,12 @@ graph LR
 
 ```mermaid
 graph TD
-	A[Current State Assessment] --> B[Cloud Readiness Analysis]
-	B --> C[Migration Strategy Design]
-	C --> D[Provider Selection]
-	D --> E[Cost-Benefit Analysis]
-	E --> F[Risk Assessment]
-	F --> G[Implementation Roadmap]
+  A[Current State Assessment] --> B[Cloud Readiness Analysis]
+  B --> C[Migration Strategy Design]
+  C --> D[Provider Selection]
+  D --> E[Cost-Benefit Analysis]
+  E --> F[Risk Assessment]
+  F --> G[Implementation Roadmap]
 ```
 
 **Evaluation Criteria**:
@@ -708,13 +708,13 @@ graph TD
 | Operating System | ? | Provider | Provider |
 
 3. Calculate the 3-year TCO for the following scenario:
-	- Current on-premises server costs: $150,000 (hardware) + $50,000/year (operations)
-	- Equivalent cloud service: $8,000/month
-	- Migration costs: $25,000
+  - Current on-premises server costs: $150,000 (hardware) + $50,000/year (operations)
+  - Equivalent cloud service: $8,000/month
+  - Migration costs: $25,000
 4. Match each strength to the correct cloud provider:
-	- Largest service portfolio → [AWS / Azure / Google Cloud]
-	- Best Microsoft integration → [AWS / Azure / Google Cloud]
-	- AI/ML leadership → [AWS / Azure / Google Cloud]
+  - Largest service portfolio → [AWS / Azure / Google Cloud]
+  - Best Microsoft integration → [AWS / Azure / Google Cloud]
+  - AI/ML leadership → [AWS / Azure / Google Cloud]
 
 ### **Practical Application Checklist**
 
