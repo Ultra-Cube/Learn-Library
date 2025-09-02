@@ -698,7 +698,7 @@ Content is released under CC BY 4.0. See `LICENSE`.
 *Cloud Platform Mastery and Modern Infrastructure*
 
 - **Module 01**: Cloud Fundamentals
-  - [🏆 Cloud Computing Fundamentals](library/cloud-computing/foundations/beginner/module-01-introduction/lesson-01-cloud-fundamentals.md)
+  - [🏆 Cloud Computing Fundamentals](library/cloud-computing/foundations/beginner/module-01-cloud-fundamentals/lesson-01-cloud-computing-fundamentals.md)
     - *50 minutes | Modern cloud platforms and services*
 
 ---
@@ -849,7 +849,7 @@ Content is released under CC BY 4.0. See `LICENSE`.
     - *Sources: AWS, Microsoft Azure, NIST cloud definitions*
 
 - **Module 01**: Introduction to Cloud Computing
-  - [📝 Lesson 01: Cloud Fundamentals](library/cloud-computing/foundations/beginner/module-01-introduction/lesson-01-cloud-fundamentals.md)
+  - [📝 Lesson 01: Cloud Fundamentals](library/cloud-computing/foundations/beginner/module-01-cloud-fundamentals/lesson-01-cloud-computing-fundamentals.md)
 
 ---
 

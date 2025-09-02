@@ -70,7 +70,7 @@
 - **[🏆 IT Infrastructure Fundamentals](library/it-infrastructure/foundations/beginner/module-01-introduction/lesson-01-it-infrastructure-fundamentals.md)**
   - *55 minutes | 1,065 lines | Enterprise systems and networks*
 
-- **[🏆 Cloud Computing Fundamentals](library/cloud-computing/foundations/beginner/module-01-introduction/lesson-01-cloud-fundamentals.md)**
+- **[🏆 Cloud Computing Fundamentals](library/cloud-computing/foundations/beginner/module-01-cloud-fundamentals/lesson-01-cloud-computing-fundamentals.md)**
   - *50 minutes | 773 lines | Modern cloud platforms and services*
 
 ### **3. Platform Documentation Overhaul**
