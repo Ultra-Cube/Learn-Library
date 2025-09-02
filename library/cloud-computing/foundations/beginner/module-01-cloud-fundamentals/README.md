@@ -19,19 +19,19 @@ Comprehensive foundational coverage of cloud definitions, characteristics, servi
 
 ```mermaid
 graph LR
-	A[Cloud Computing] --> B[Service Models]
-	A --> C[Deployment Models]
-	A --> D[Economics]
-	B --> B1[IaaS]
-	B --> B2[PaaS]
-	B --> B3[SaaS]
-	C --> C1[Public]
-	C --> C2[Private]
-	C --> C3[Hybrid]
-	C --> C4[Multi-Cloud]
-	D --> D1[Cost Optimization]
-	D --> D2[Scalability]
-	D --> D3[Elasticity]
+A[Cloud Computing] --> B[Service Models]
+A --> C[Deployment Models]
+A --> D[Economics]
+B --> B1[IaaS]
+B --> B2[PaaS]
+B --> B3[SaaS]
+C --> C1[Public]
+C --> C2[Private]
+C --> C3[Hybrid]
+C --> C4[Multi-Cloud]
+D --> D1[Cost Optimization]
+D --> D2[Scalability]
+D --> D3[Elasticity]
 ```
 
 ## Summary
